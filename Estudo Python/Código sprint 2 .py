@@ -70,13 +70,13 @@ def exibir_quantidade_guinchos_disponiveis():
 
 while True:
     print('----- Auto Help Porto -----')
-    print('1 - Solicitar Suporte')
-    print('2 - Verificar Solicitações')
-    print('3 - Cancelar Solicitação')
-    print('4 - Catálogo de Guinchos')
-    print('5 - Exibir Última Solicitação')
-    print('6 - Exibir Quantidade de Guinchos Disponíveis')
-    print('0 - Encerrar Atendimento')
+    print('1 • Solicitar Suporte')
+    print('2 • Verificar Solicitações')
+    print('3 • Cancelar Solicitação')
+    print('4 • Catálogo de Guinchos')
+    print('5 • Exibir Última Solicitação')
+    print('6 • Exibir Quantidade de Guinchos Disponíveis')
+    print('0 • Encerrar Atendimento')
 
     escolha = input('Escolha uma opção: ')
 
