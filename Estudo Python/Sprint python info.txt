@@ -1,0 +1,45 @@
+============================================= Sprint 1 =============================================
+
+ • Criar um programa em Linguagem Python que atenda aos requisitos propostos no Desafio 1 ou Desafio
+   2. Para esta entrega, implemente uma Rotina contendo o Menu com as funcionalidades de maior 
+   relevância para o projeto.
+ 
+ • Para cada funcionalidade definida, é esperado que haja a implementação inicial contendo 
+   (minimamente) as regras de negócio planejadas para a funcionalidade em questão.
+
+ • Considere os conceitos de entrada, processamento (simples) e saída de dados 
+
+ • Estruturas condicionais e de repetição
+
+ • Armazenamento de dados em variáveis locais
+
+ • É esperado uma versão (mesmo que simples) funcional do programa.
+
+ • Ao final, o programa deve listar o resumo da operação realizada, permitir ao usuário realizar uma
+   nova operação ou encerrar o atendimento (finalização do programa).
+
+ • Em outras disciplinas que envolvam lógica de programação (decisão, seleção, laços, classes) tirar
+   prints, compactar e enviar juntamente com as demais entregas.
+
+============================================= Sprint 2 =============================================
+
+ • Considere que a entrega 1 esteja devidamente implementada porque a entrega 2 a usará como 
+   referência.
+
+ • No menu criado na entrega 1, deixar ao menos 3 rotinas (itens do menu), funcionais, ou seja,
+   fazendo o que o é solicitado.
+
+ • Implementar função/procedimento/parâmetros no desenvolvimento das rotinas.
+
+ • Utiliza as Estruturas condicionais e de repetição onde for necessário.
+ 
+ • Armazenamento de dados em variáveis  locais
+
+ • É esperado uma versão funcional do programa.
+
+ • Cada rotina deveprezar pela usabilidade, ou seja, informar requisitos de preenchimentodos dados 
+   no ato da digitação e descrição da rotina para que o usuário novato consiga navegar 
+   tranquilamente pela aplicação.
+
+ • Em outras disciplinas que envolvam lógica de programação (decisão, seleção, laços, classes) tirar
+   prints, compactar e enviar juntamente com as demais entregas.  
