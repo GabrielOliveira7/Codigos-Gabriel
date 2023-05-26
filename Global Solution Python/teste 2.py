@@ -2,7 +2,7 @@
 import openai
 
 # Define sua chave de API do OpenAI
-openai.api_key = 'SUA_CHAVE_DE_API_DO_OPENAI'
+openai.api_key = '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'
 
 def calcular_imc(peso, altura):
     altura_metros = altura / 100  # Convertendo a altura para metros
@@ -12,7 +12,7 @@ def calcular_imc(peso, altura):
 def gerar_texto_dieta(ingredientes, refeicoes, dias, imc):
     prompt = f"Com base nos ingredientes: {ingredientes}, construa uma dieta com {refeicoes} refeições ao longo de {dias} dias para uma pessoa com IMC de {imc:.2f}."
     response = openai.Completion.create(
-        engine='davinci-codex',
+        engine='text-davinci-003',
         prompt=prompt,
         max_tokens=500,
         n=1,
@@ -36,3 +36,6 @@ texto_dieta = gerar_texto_dieta(ingredientes, refeicoes, dias, imc)
 
 # Exibe o resultado
 print(texto_dieta)
+
+
+#exemplo de uso: 10 cenouras, 20 batatas, 10 pacotes de macarrão e 5 kg de carne moída
