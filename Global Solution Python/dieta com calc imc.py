@@ -1,8 +1,7 @@
-
 import openai
 
 # Define sua chave de API do OpenAI
-openai.api_key = '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'
+openai.api_key = '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'
 
 def calcular_imc(peso, altura):
     altura_metros = altura / 100  # Convertendo a altura para metros
@@ -22,7 +21,20 @@ def gerar_texto_dieta(ingredientes, refeicoes, dias, imc):
     return response.choices[0].text.strip()
 
 # Solicita os dados ao usuário
-ingredientes = input("Informe os ingredientes que você possui: ")
+ingredientes = []
+quantidades = []
+
+while True:
+    ingrediente = input("Informe o tipo de ingrediente: ")
+    quantidade = input("Informe a quantidade desse ingrediente: ")
+
+    ingredientes.append(ingrediente)
+    quantidades.append(quantidade)
+
+    opcao = input("Deseja inserir outro ingrediente? (s/n): ")
+    if opcao.lower() != 's':
+        break
+
 refeicoes = int(input("Informe a quantidade de refeições desejada: "))
 dias = int(input("Informe a quantidade de dias para as refeições: "))
 peso = float(input("Informe seu peso (em kg): "))
@@ -36,9 +48,3 @@ texto_dieta = gerar_texto_dieta(ingredientes, refeicoes, dias, imc)
 
 # Exibe o resultado
 print(texto_dieta)
-
-#solicitar nome
-#exemplo de uso: 10 cenouras, 20 batatas, 10 pacotes de macarrão e 5 kg de carne moída
-
-
-#exemplo de uso: 10 cenouras, 20 batatas, 10 pacotes de macarrão e 5 kg de carne moída
