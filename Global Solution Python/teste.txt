@@ -1,2 +1,19 @@
 api chat gpt:
 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
+
+
+Modelo de pesquisa de receitaa json:
+{
+			"receita" : " Mousse de Limão " ,
+			"ingredientes" : " 1 lata de leite condensado, 1 lata de creme de leite, 1/2 xícara de limão espremido " ,
+			"ingredientesBase" : {
+				"0" : " 3 " ,
+				"1" : " Leite condensado " ,
+				"2" : " Creme de leite " ,
+				"3" : " Limão "
+			},
+			"modoPreparo" : " Coloque o creme de leite e o leite condensado no liquidificador, bata um pouco e acrescente o suco de limão aos poucos. Quando a massa ficar consistente, coloque em um recipiente de vidro e leva à geladeira. " ,
+			"link_imagem" : " http://data.whicdn.com/images/78859362/large.jpg "
+		}
+
+text-davinci-003
