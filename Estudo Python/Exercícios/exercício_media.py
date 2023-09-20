@@ -11,3 +11,5 @@ if media >=7:
     print ("Parabéns você foi aprovado")
 else:
     print('Você precisa estudar mais')
+
+    #gg
